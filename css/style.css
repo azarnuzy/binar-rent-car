@@ -5,17 +5,19 @@
   outline: 0;
   text-decoration: none;
   list-style: none;
-  /* 
-    box-sizing: Mengukur kalkulasi dalam mengukur lebar elemen
-    border-box: Mengatur ukuran di dalam parent container berupa padding + width + height
-    */
   box-sizing: border-box;
 }
 
 :root {
-  /* Membuat variabel global sehingga bisa diakses secara global variabelnya */
-  /* ROOT UNTUK WARNA */
-  --color-primary: #6c63ff;
+  /* COLOR ROOT */
+  --color-dark-blue5: #091b6f;
+  --color-dark-blue4: #0d28a6;
+  --color-dark-blue3: #0d28a6;
+  --color-dark-blue2: #0d28a6;
+  --color-dark-blue1: #0d28a6;
+  --color-primary2: #0d28a6;
+  --color-primary2: #0d28a6;
+  --color-primary2: #0d28a6;
   --color-success: #00bf8e;
   --color-warning: #f7c94b;
   --color-danger: #f75842;
@@ -34,7 +36,6 @@
 
   /* TRANSITION ANIMATION */
   --transition: all 400ms ease;
-  /* Ease: awal pelan, akhir pelan */
 }
 
 body {
