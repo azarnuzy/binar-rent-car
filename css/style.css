@@ -59,7 +59,7 @@ body {
 
 section {
   /* 1rem = 16px */
-  padding: 6rem 0;
+  padding: 4rem 0;
 }
 
 section h2 {
@@ -75,19 +75,19 @@ h5 {
 }
 
 h1 {
-  font-size: 2.4rem;
-}
-
-h2 {
   font-size: 2rem;
 }
 
-h3 {
+h2 {
   font-size: 1.6rem;
 }
 
+h3 {
+  font-size: 1.2rem;
+}
+
 h4 {
-  font-size: 1.3rem;
+  font-size: 1rem;
 }
 
 a {
@@ -231,6 +231,14 @@ service {
   height: 100%;
 }
 
+.service__left {
+  margin-left: 5rem;
+}
+
+.service__right {
+  margin-right: 4rem;
+}
+
 .service__right p {
   margin-bottom: 2rem;
 }
@@ -247,4 +255,52 @@ service {
   background: var(--color-dark-blue1);
   border-radius: 50%;
   padding: 2px;
+}
+
+/* ===== WHY-US ===== */
+.why-us p {
+  margin-bottom: 2rem;
+}
+
+.why-us__wrap {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 1rem;
+}
+
+.why-us__card {
+  padding: 1.3rem;
+  border-radius: 8px;
+  width: 268px;
+  height: 196px;
+  box-shadow: var(--shadow-low);
+}
+
+.why-us__icon {
+  display: inline-block;
+  margin-bottom: 0.8rem;
+}
+
+.why-us__card h3 {
+  margin-bottom: 1rem;
+}
+
+.why-us__card i {
+  color: var(--color-neutral1);
+  border-radius: 50%;
+  padding: 4px;
+}
+
+.why-us__card:nth-child(1) i {
+  background: var(--color-warning);
+}
+
+.why-us__card:nth-child(2) i {
+  background: var(--color-danger);
+}
+.why-us__card:nth-child(3) i {
+  background: var(--color-dark-blue4);
+}
+.why-us__card:nth-child(4) i {
+  background: var(--color-success);
 }
