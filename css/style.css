@@ -46,7 +46,7 @@
 }
 
 body {
-  font-family: 'Montserrat', sans-serif;
+  font-family: Helvetica, sans-serif;
   line-height: 1.7;
   color: var(--color-white);
   background-color: var(--color-bg);
@@ -103,18 +103,19 @@ img {
 
 .btn-1 {
   display: inline-block;
-  background: var(--color-dark-blue4);
+  background: var(--color-lime-green4);
   color: var(--color-neutral1);
   padding: 0.5rem 0.8rem;
   border: 1px solid transparent;
   font-weight: 700;
   transform: var(--transition);
+  border-radius: 2px;
 }
 
 .btn-1:hover {
   background: transparent;
-  color: var(--color-dark-blue4);
-  border-color: var(--color-dark-blue4);
+  color: var(--color-lime-green4);
+  border-color: var(--color-lime-green4);
 }
 
 .btn-2 {
@@ -125,6 +126,7 @@ img {
   border: 1px solid transparent;
   font-weight: 700;
   transform: var(--transition);
+  border-radius: 2px;
 }
 
 .btn-2:hover {
@@ -136,4 +138,52 @@ img {
 .btn-primary {
   background: var(--color-danger);
   color: var(--color-white);
+}
+
+.logo {
+  display: inline-block;
+  width: 100px;
+  height: 34px;
+}
+
+/* ======== Navbar ======== */
+nav {
+  background: transparent;
+  width: 100vw;
+  height: 5rem;
+  position: fixed;
+  top: 0;
+  z-index: 11;
+}
+
+/* change navbar styles on scroll using javascript */
+.window-scroll {
+  background: var(--color-neutral1);
+  box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.3);
+}
+
+.nav__container {
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav button {
+  display: none;
+}
+
+.nav__menu {
+  display: flex;
+  align-items: center;
+  gap: 4rem;
+}
+
+.nav__menu a {
+  font-size: 0.9rem;
+  transform: var(--transition);
+}
+
+.nav__menu a:hover {
+  color: var(--color-bg2);
 }
