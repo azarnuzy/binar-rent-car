@@ -100,3 +100,40 @@ img {
   display: block;
   object-fit: cover;
 }
+
+.btn-1 {
+  display: inline-block;
+  background: var(--color-dark-blue4);
+  color: var(--color-neutral1);
+  padding: 0.5rem 0.8rem;
+  border: 1px solid transparent;
+  font-weight: 700;
+  transform: var(--transition);
+}
+
+.btn-1:hover {
+  background: transparent;
+  color: var(--color-dark-blue4);
+  border-color: var(--color-dark-blue4);
+}
+
+.btn-2 {
+  display: inline-block;
+  background: var(--color-dark-blue5);
+  color: var(--color-neutral1);
+  padding: 0.5rem 0.8rem;
+  border: 1px solid transparent;
+  font-weight: 700;
+  transform: var(--transition);
+}
+
+.btn-2:hover {
+  background: transparent;
+  color: var(--color-dark-blue5);
+  border-color: var(--color-dark-blue5);
+}
+
+.btn-primary {
+  background: var(--color-danger);
+  color: var(--color-white);
+}
