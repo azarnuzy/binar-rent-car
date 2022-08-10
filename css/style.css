@@ -10,24 +10,31 @@
 
 :root {
   /* COLOR ROOT */
+
   --color-dark-blue5: #091b6f;
   --color-dark-blue4: #0d28a6;
-  --color-dark-blue3: #0d28a6;
-  --color-dark-blue2: #0d28a6;
-  --color-dark-blue1: #0d28a6;
-  --color-primary2: #0d28a6;
-  --color-primary2: #0d28a6;
-  --color-primary2: #0d28a6;
-  --color-success: #00bf8e;
-  --color-warning: #f7c94b;
-  --color-danger: #f75842;
-  --color-danger-variant: rgba(247, 88, 66, 0.4);
-  --color-white: #fff;
-  --color-light: rgba(255, 255, 255, 0.7);
-  --color-black: #000;
-  --color-bg: #1f2641;
-  --color-bg1: #2e3267;
-  --color-bg2: #424890;
+  --color-dark-blue3: #5e70c4;
+  --color-dark-blue2: #aeb7e1;
+  --color-dark-blue1: #cfd4ed;
+
+  --color-lime-green5: #3d7b3f;
+  --color-lime-green4: #5cb85f;
+  --color-lime-green3: #92d094;
+  --color-lime-green2: #c9e7ca;
+  --color-lime-green1: #def1df;
+
+  --color-danger: #fa2c5a;
+  --color-warning: #f9cc00;
+  --color-success: #73ca5c;
+
+  --color-neutral5: #151515;
+  --color-neutral4: #3c3c3c;
+  --color-neutral3: #8a8a8a;
+  --color-neutral2: #d0d0d0;
+  --color-neutral1: #ffffff;
+
+  --shadow-low: 0px 0px 4px rgba(0, 0, 0, 0.15);
+  --shadow-high: 0px 0px 10px rgba(0, 0, 0, 0.15);
 
   /* BREAKPOINTS */
   --container-width-lg: 76%;
